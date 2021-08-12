@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #7D2AE8;
+}
+form{
+    background: #fff;
+    width: 450px;
+    padding: 30px;
+    border-radius: 5px;
+}
+form header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #7D2AE8;
+    margin-top: 10px;
+}
+form .url-input{
+    margin: 30px 0;
+}
+.url-input .title{
+    font-size: 18px;
+    color: #373737;
+}
+.url-input .field{
+    height: 50px;
+    width: 100%;
+    margin: 5px;   
+}
+url-input .field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #f1f1f7;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    outline: none;
+}
